@@ -1,0 +1,46 @@
+# Generated data and model artefacts — never commit these
+data/
+models/
+results/
+shadow_results/
+finetuned_checkpoint/
+base_checkpoint/
+
+# Experiment tracking
+wandb/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# PyTorch / HuggingFace checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment & secrets — never commit
+.env
+.env.*
+*.key
+
+# External dependencies cloned locally (see README for install instructions)
+SAMA/
+dllm/
+
+# OS
+.DS_Store
+Thumbs.db
