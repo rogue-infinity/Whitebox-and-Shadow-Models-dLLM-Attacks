@@ -1,5 +1,7 @@
 # White-box and Shadow Model Membership Inference Attacks on Diffusion LLMs
 
+[![Read the Technical Report](https://img.shields.io/badge/Technical%20Report-Read%20PDF-red?style=for-the-badge&logo=adobeacrobatreader)](https://github.com/rogue-infinity/Whitebox-and-Shadow-Models-dLLM-Attacks/blob/main/Technical_Report.pdf)
+
 This repository contains the code for reproducing the membership inference attack (MIA) experiments on **Masked Diffusion Language Models (MDLMs)** reported in our study. Two complementary attack strategies are implemented:
 
 1. **White-box trajectory attack** — fine-tune the target MDLM on a held-out corpus, extract a 46-dimensional ELBO-trajectory feature vector per text, and train an XGBoost/MLP classifier. Evaluated on the [MIMIR](https://github.com/iamgroot42/mimir) benchmark (6 domains).
